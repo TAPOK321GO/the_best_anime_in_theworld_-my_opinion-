@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(#ff00cc,#333399);
+}
+
+.gg{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+img{
+    width: 200px;
+    height: 250px;
+}
+
+a{
+    text-decoration: none;
+    
+    background-image: linear-gradient(#ff00cc,#333399);
+    border-radius: 6px;
+color: black;
+
+}
+
+img{
+ border-radius: 10px;
+ opacity: 0.1;
+}
+
+img:hover{
+    opacity: 1;
+    transition: 1s linear;
+}
+
+a:visited{
+    color: gray;
+}
